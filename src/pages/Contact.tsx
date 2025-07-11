@@ -4,27 +4,25 @@ export const Contact = () => {
       {/* Page Header */}
       <div className="bg-slate-900 text-white py-16">
         <div className="container mx-auto px-6">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
-          <p className="text-xl text-slate-300">
-            Get in touch with us - we'd love to hear from you
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact</h1>
+          <nav className="text-slate-300">
+            <span>Home</span>
+          </nav>
         </div>
       </div>
 
       <div className="container mx-auto px-6 py-16">
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-5 gap-12">
           {/* Contact Information */}
-          <div>
-            <h2 className="text-3xl font-bold mb-8 text-slate-800">Get In Touch</h2>
-            
-            <div className="space-y-6 mb-8">
+          <div className="lg:col-span-2">
+            <div className="bg-white rounded-lg shadow-lg p-8 space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-100 p-3 rounded-lg">
                   <i className="bi bi-geo-alt text-blue-600 text-xl"></i>
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-800 mb-1">Address</h3>
-                  <p className="text-slate-600">Nansana, Wakiso District, Uganda</p>
+                  <p className="text-slate-600">Nansana Kabumbi<br />Mpanga RD, Uganda</p>
                 </div>
               </div>
 
@@ -33,8 +31,9 @@ export const Contact = () => {
                   <i className="bi bi-telephone text-blue-600 text-xl"></i>
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-800 mb-1">Phone</h3>
-                  <p className="text-slate-600">+256 XXX XXX XXX</p>
+                  <h3 className="font-bold text-slate-800 mb-1">Call Us</h3>
+                  <p className="text-slate-600">0751604372</p>
+                  <p className="text-slate-600">0392-080428</p>
                 </div>
               </div>
 
@@ -43,108 +42,91 @@ export const Contact = () => {
                   <i className="bi bi-envelope text-blue-600 text-xl"></i>
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-800 mb-1">Email</h3>
-                  <p className="text-slate-600">info@braintrustschool.com</p>
+                  <h3 className="font-bold text-slate-800 mb-1">Email Us</h3>
+                  <p className="text-slate-600">briantrustschool@gmail.com</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="bg-blue-100 p-3 rounded-lg">
-                  <i className="bi bi-clock text-blue-600 text-xl"></i>
-                </div>
-                <div>
-                  <h3 className="font-bold text-slate-800 mb-1">School Hours</h3>
-                  <p className="text-slate-600">Monday - Friday: 7:00 AM - 6:00 PM</p>
-                  <p className="text-slate-600">Saturday: 8:00 AM - 2:00 PM</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Social Links */}
-            <div>
-              <h3 className="font-bold text-slate-800 mb-4">Follow Us</h3>
-              <div className="flex space-x-4">
-                <a href="#" className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition-colors">
-                  <i className="bi bi-facebook"></i>
-                </a>
-                <a href="#" className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition-colors">
-                  <i className="bi bi-twitter-x"></i>
-                </a>
-                <a href="#" className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition-colors">
-                  <i className="bi bi-instagram"></i>
-                </a>
+              {/* Map */}
+              <div className="mt-6">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d488.82568476979407!2d32.52760059145552!3d0.3710037671084282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMjInMTYuNiJOIDMywrAzMSczOS42IkU!5e1!3m2!1sen!2sug!4v1727300790086!5m2!1sen!2sug"
+                  className="w-full h-64 rounded-lg border-0"
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-bold mb-6 text-slate-800">Send us a Message</h2>
-            
-            <form className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-slate-700 font-medium mb-2">First Name</label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Your first name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-slate-700 font-medium mb-2">Last Name</label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Your last name"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-slate-700 font-medium mb-2">Email</label>
-                <input 
-                  type="email" 
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-
-              <div>
-                <label className="block text-slate-700 font-medium mb-2">Phone</label>
-                <input 
-                  type="tel" 
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="+256 XXX XXX XXX"
-                />
-              </div>
-
-              <div>
-                <label className="block text-slate-700 font-medium mb-2">Subject</label>
-                <select className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                  <option>General Inquiry</option>
-                  <option>Admission Information</option>
-                  <option>Schedule a Visit</option>
-                  <option>Other</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="block text-slate-700 font-medium mb-2">Message</label>
-                <textarea 
-                  rows={4}
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="Tell us how we can help you..."
-                ></textarea>
-              </div>
-
-              <button 
-                type="submit"
-                className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+          <div className="lg:col-span-3">
+            <div className="bg-white rounded-lg shadow-lg p-8">
+              <h2 className="text-2xl font-bold mb-6 text-slate-800">Send us a Message</h2>
+              
+              <form 
+                action="https://api.web3forms.com/submit" 
+                method="post" 
+                className="space-y-6"
               >
-                Send Message
-              </button>
-            </form>
+                <input 
+                  type="hidden" 
+                  name="access_key" 
+                  value="94133982-1ccf-4bfe-b7ac-7e3706cf6485" 
+                />
+                
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-slate-700 font-medium mb-2">Your Name</label>
+                    <input 
+                      type="text" 
+                      name="name"
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-slate-700 font-medium mb-2">Your Email</label>
+                    <input 
+                      type="email" 
+                      name="email"
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-slate-700 font-medium mb-2">Subject</label>
+                  <input 
+                    type="text" 
+                    name="subject"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-slate-700 font-medium mb-2">Message</label>
+                  <textarea 
+                    name="message"
+                    rows={10}
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    required
+                  ></textarea>
+                </div>
+
+                <div className="text-center">
+                  <button 
+                    type="submit"
+                    className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-lg"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
