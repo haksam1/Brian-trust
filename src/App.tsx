@@ -11,6 +11,7 @@ import { Gallery } from "./pages/Gallery";
 import { Contact } from "./pages/Contact";
 import { KindergartenService } from "./pages/KindergartenService";
 import { PrimaryService } from "./pages/PrimaryService";
+import { SchoolInfo } from "./pages/SchoolInfo";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="services" element={<Services />} />
             <Route path="services/kindergarten" element={<KindergartenService />} />
             <Route path="services/primary" element={<PrimaryService />} />
+            <Route path="school-info" element={<SchoolInfo />} />
             <Route path="gallery" element={<Gallery />} />
             <Route path="contact" element={<Contact />} />
           </Route>
