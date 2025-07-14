@@ -1,5 +1,54 @@
 import React, { useState, useEffect } from 'react';
 
+// Import all images
+import t1 from '../assets/img/t1.jpg';
+import t2 from '../assets/img/t2.jpg';
+import t3 from '../assets/img/t3.jpg';
+import t4 from '../assets/img/t4.jpg';
+import t5 from '../assets/img/t5.jpg';
+import t6 from '../assets/img/t6.jpg';
+import t7 from '../assets/img/t7.jpg';
+import t8 from '../assets/img/t8.jpg';
+import t9 from '../assets/img/t9.jpg';
+import t10 from '../assets/img/t10.jpg';
+import t11 from '../assets/img/t11.jpg';
+import t12 from '../assets/img/t12.jpg';
+import t13 from '../assets/img/t13.jpg';
+import t14 from '../assets/img/t14.jpg';
+import t15 from '../assets/img/t15.jpg';
+import t16 from '../assets/img/t16.jpg';
+import t17 from '../assets/img/t17.jpg';
+import t18 from '../assets/img/t18.jpg';
+import t19 from '../assets/img/t19.jpg';
+import t20 from '../assets/img/t20.jpg';
+import c1 from '../assets/img/c1.jpg';
+import c2 from '../assets/img/c2.jpg';
+import c3 from '../assets/img/c3.jpg';
+import p1 from '../assets/img/p1.jpg';
+import p2 from '../assets/img/p2.jpg';
+import p3 from '../assets/img/p3.jpg';
+import p4 from '../assets/img/p4.jpg';
+import p5 from '../assets/img/p5.jpg';
+import p6 from '../assets/img/p6.jpg';
+import p7 from '../assets/img/p7.jpg';
+import event1 from '../assets/img/2L4A7403.jpg';
+import event2 from '../assets/img/2L4A7437.jpg';
+import img2 from '../assets/img/2.jpg';
+import img3 from '../assets/img/3.jpg';
+import img4 from '../assets/img/4.jpg';
+import img5 from '../assets/img/5.jpg';
+import imgC from '../assets/img/c.jpg';
+import imgD from '../assets/img/d.jpg';
+import imgE from '../assets/img/e.jpg';
+import imgF from '../assets/img/f.jpg';
+import imgG1 from '../assets/img/g1.jpg';
+import imgG2 from '../assets/img/g2.jpg';
+import imgM from '../assets/img/m.jpg';
+import imgO from '../assets/img/o.jpg';
+import imgOO from '../assets/img/oo.jpg';
+import imgR from '../assets/img/r.jpg';
+import schoolImg from '../assets/img/school.jpg';
+
 export const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState("All");
   const [filteredItems, setFilteredItems] = useState([]);
@@ -9,7 +58,7 @@ export const Gallery = () => {
 const portfolioItems = [
   // ---------------------- TEACHERS ----------------------
   {
-    src: "/src/assets/img/t20.jpg",
+    src: t20,
     title: "Class Teacher K.1",
     subtitle: "Katumba Elinah",
     category: "Teachers",
@@ -17,7 +66,7 @@ const portfolioItems = [
     description: "Ms. Katumba Elinah is our dedicated Kindergarten 1 teacher with over 5 years of experience in early childhood education.",
   },
   {
-    src: "/src/assets/img/t3.jpg",
+    src: t3,
     title: "Bursar",
     subtitle: "Kyagulanya Augustine",
     category: "Teachers",
@@ -25,7 +74,7 @@ const portfolioItems = [
     description: "Mr. Kyagulanya Augustine ensures financial accountability and resource planning for the school.",
   },
   {
-    src: "/src/assets/img/t10.jpg",
+    src: t10,
     title: "Class Teacher P.3",
     subtitle: "Mudebo Norah",
     category: "Teachers",
@@ -33,7 +82,7 @@ const portfolioItems = [
     description: "Ms. Mudebo Norah guides Primary 3 pupils with excellence and care.",
   },
   {
-    src: "/src/assets/img/t6.jpg",
+    src: t6,
     title: "Teacher",
     subtitle: "Asiimwe Dahpine",
     category: "Teachers",
@@ -41,7 +90,7 @@ const portfolioItems = [
     description: "Ms. Asiimwe Dahpine is a dedicated support teacher with a passion for child development.",
   },
   {
-    src: "/src/assets/img/t17.jpg",
+    src: t17,
     title: "Teacher",
     subtitle: "Ojoro Emmanuel",
     category: "Teachers",
@@ -49,7 +98,7 @@ const portfolioItems = [
     description: "Mr. Ojoro Emmanuel brings subject expertise and classroom experience to our learners.",
   },
   {
-    src: "/src/assets/img/t1.jpg",
+    src: t1,
     title: "Head Teacher",
     subtitle: "Nassolo Saphinah",
     category: "Teachers",
@@ -57,7 +106,7 @@ const portfolioItems = [
     description: "Mrs. Nassolo Saphinah leads Brain Trust School with passion and purpose.",
   },
   {
-    src: "/src/assets/img/t2.jpg",
+    src: t2,
     title: "D.O.S (Director of Studies)",
     subtitle: "Luyimbazi Hanington",
     category: "Teachers",
@@ -65,7 +114,7 @@ const portfolioItems = [
     description: "Mr. Luyimbazi ensures academic excellence across all classes.",
   },
   {
-    src: "/src/assets/img/t4.jpg",
+    src: t4,
     title: "Secretary",
     subtitle: "Namutebi Joan Kirabo",
     category: "Teachers",
@@ -73,7 +122,7 @@ const portfolioItems = [
     description: "Joan is the welcoming face of the school and assists in communication and records.",
   },
   {
-    src: "/src/assets/img/t18.jpg",
+    src: t18,
     title: "Co-Teacher P.7",
     subtitle: "Gabale Geofrey",
     category: "Teachers",
@@ -81,7 +130,7 @@ const portfolioItems = [
     description: "Mr. Gabale supports P.7 academic and revision efforts.",
   },
   {
-    src: "/src/assets/img/t13.jpg",
+    src: t13,
     title: "Class Teacher P.6",
     subtitle: "Abaa Daniel",
     category: "Teachers",
@@ -89,7 +138,7 @@ const portfolioItems = [
     description: "Mr. Abaa prepares students for PLE success in P.6.",
   },
   {
-    src: "/src/assets/img/t14.jpg",
+    src: t14,
     title: "Class Teacher P.5",
     subtitle: "Eyadu Benard",
     category: "Teachers",
@@ -97,7 +146,7 @@ const portfolioItems = [
     description: "Mr. Eyadu builds confidence and skills in Primary 5 learners.",
   },
   {
-    src: "/src/assets/img/t11.jpg",
+    src: t11,
     title: "Class Teacher P.4",
     subtitle: "Ndagijiman Bosco",
     category: "Teachers",
@@ -105,7 +154,7 @@ const portfolioItems = [
     description: "Mr. Bosco focuses on academic performance and discipline in P.4.",
   },
   {
-    src: "/src/assets/img/t5.jpg",
+    src: t5,
     title: "Class Teacher P.2 / Head of Lower",
     subtitle: "Nakandha Marion",
     category: "Teachers",
@@ -113,7 +162,7 @@ const portfolioItems = [
     description: "Madam Marion leads P.2 and oversees lower primary instruction.",
   },
   {
-    src: "/src/assets/img/t16.jpg",
+    src: t16,
     title: "Class Teacher P.1",
     subtitle: "Nanuumba Mariam",
     category: "Teachers",
@@ -121,7 +170,7 @@ const portfolioItems = [
     description: "Madam Mariam warmly welcomes children into formal learning.",
   },
   {
-    src: "/src/assets/img/t12.jpg",
+    src: t12,
     title: "Teacher",
     subtitle: "Anam Bibian",
     category: "Teachers",
@@ -129,7 +178,7 @@ const portfolioItems = [
     description: "Ms. Bibian supports early childhood education with care.",
   },
   {
-    src: "/src/assets/img/t7.jpg",
+    src: t7,
     title: "Teacher",
     subtitle: "Katono Noeline",
     category: "Teachers",
@@ -137,7 +186,7 @@ const portfolioItems = [
     description: "Ms. Noeline teaches specialized subjects across classes.",
   },
   {
-    src: "/src/assets/img/t9.jpg",
+    src: t9,
     title: "Teacher",
     subtitle: "Nalweyiso Annet",
     category: "Teachers",
@@ -145,7 +194,7 @@ const portfolioItems = [
     description: "Annet supports learners in foundational and remedial education.",
   },
   {
-    src: "/src/assets/img/t15.jpg",
+    src: t15,
     title: "Class Teacher K.2",
     subtitle: "Nambuya Viol",
     category: "Teachers",
@@ -153,17 +202,25 @@ const portfolioItems = [
     description: "Ms. Viol prepares K.2 learners for the Pre-primary transition.",
   },
   {
-    src: "/src/assets/img/t19.jpg",
+    src: t19,
     title: "Sheikh",
     subtitle: "Ddumba Umar",
     category: "Teachers",
     role: "Religious Leader",
     description: "Sheikh Umar offers spiritual guidance and Islamic studies.",
   },
+  {
+    src: t8,
+    title: "Music Teacher",
+    subtitle: "Nambozo Grace",
+    category: "Teachers",
+    role: "Creative Arts",
+    description: "Ms. Grace leads our music and creative arts programs.",
+  },
 
   // ---------------------- CLASSES ----------------------
   {
-    src: "/src/assets/img/c1.jpg",
+    src: c1,
     title: "Kinder 1",
     subtitle: "Madam Katumba Elinah",
     category: "Classes",
@@ -171,7 +228,7 @@ const portfolioItems = [
     description: "This is the starting point for young learners aged 3–4.",
   },
   {
-    src: "/src/assets/img/c2.jpg",
+    src: c2,
     title: "Kinder 2",
     subtitle: "Madam Nassali Sylvia",
     category: "Classes",
@@ -179,7 +236,7 @@ const portfolioItems = [
     description: "Preparing children aged 4–5 for Pre-primary activities.",
   },
   {
-    src: "/src/assets/img/c3.jpg",
+    src: c3,
     title: "Pre-Primary Active",
     subtitle: "Madam Nambuya Viola",
     category: "Classes",
@@ -187,7 +244,7 @@ const portfolioItems = [
     description: "Readies learners aged 5–6 for Primary One.",
   },
   {
-    src: "/src/assets/img/p1.jpg",
+    src: p1,
     title: "Primary 1",
     subtitle: "Madam Nanuumba Mariam",
     category: "Classes",
@@ -195,7 +252,7 @@ const portfolioItems = [
     description: "Focuses on core skills: literacy, numeracy, social studies.",
   },
   {
-    src: "/src/assets/img/p2.jpg",
+    src: p2,
     title: "Primary 2",
     subtitle: "Madam Nakandha Marion",
     category: "Classes",
@@ -203,7 +260,7 @@ const portfolioItems = [
     description: "Encourages independence and new knowledge application.",
   },
   {
-    src: "/src/assets/img/p3.jpg",
+    src: p3,
     title: "Primary 3",
     subtitle: "Madam Mudebo Norah",
     category: "Classes",
@@ -211,7 +268,7 @@ const portfolioItems = [
     description: "Focus on structured activities and confidence development.",
   },
   {
-    src: "/src/assets/img/p4.jpg",
+    src: p4,
     title: "Primary 4",
     subtitle: "Mr. Ndagijiman Bosco",
     category: "Classes",
@@ -219,7 +276,7 @@ const portfolioItems = [
     description: "New subjects and exam techniques introduced.",
   },
   {
-    src: "/src/assets/img/p5.jpg",
+    src: p5,
     title: "Primary 5",
     subtitle: "Mr. Eyadu Benard",
     category: "Classes",
@@ -227,7 +284,7 @@ const portfolioItems = [
     description: "Improves subject comprehension and revision routines.",
   },
   {
-    src: "/src/assets/img/p6.jpg",
+    src: p6,
     title: "Primary 6",
     subtitle: "Mr. Abaa Daniel",
     category: "Classes",
@@ -235,7 +292,7 @@ const portfolioItems = [
     description: "Reinforcement of learning with mock exams and discussions.",
   },
   {
-    src: "/src/assets/img/p7.jpg",
+    src: p7,
     title: "Primary 7",
     subtitle: "Mr. Gabale Geofrey",
     category: "Classes",
@@ -245,15 +302,15 @@ const portfolioItems = [
 
   // ---------------------- EVENTS ----------------------
   {
-    src: "/src/assets/img/2L4A7403.jpg",
+    src: event1,
     title: "Cultural Day",
     subtitle: "8th October 2023",
     category: "Events",
     role: "Culture",
-    description: "A celebration of Uganda’s cultural diversity with music, food, and dance.",
+    description: "A celebration of Uganda's cultural diversity with music, food, and dance.",
   },
   {
-    src: "/src/assets/img/2L4A7437.jpg",
+    src: event2,
     title: "Kindergarten Fashion Party",
     subtitle: "25th May 2024",
     category: "Events",
@@ -261,17 +318,130 @@ const portfolioItems = [
     description: "Kindergarten learners strutted in fashion before guests and parents.",
   },
   {
-    src: "/src/assets/img/z1.JPG",
-    title: "Leavers' Party",
-    subtitle: "Primary 7 Graduation",
+    src: imgG1,
+    title: "Graduation Ceremony",
+    subtitle: "Annual Celebration",
     category: "Events",
     role: "Graduation",
-    description: "Our P.7 pupils marked their academic milestone in style and joy.",
+    description: "Celebrating our graduates and their achievements.",
+  },
+  {
+    src: imgG2,
+    title: "Sports Day",
+    subtitle: "Athletic Competition",
+    category: "Events",
+    role: "Sports",
+    description: "Annual sports day fostering teamwork and healthy competition.",
+  },
+
+  // ---------------------- SCHOOL FACILITIES & MORE ----------------------
+  {
+    src: schoolImg,
+    title: "School Building",
+    subtitle: "Main Campus",
+    category: "Facilities",
+    role: "Infrastructure",
+    description: "Our modern school building provides a conducive learning environment.",
+  },
+  {
+    src: img2,
+    title: "Classroom Environment",
+    subtitle: "Learning Spaces",
+    category: "Facilities",
+    role: "Classrooms",
+    description: "Well-equipped classrooms designed for effective learning.",
+  },
+  {
+    src: img3,
+    title: "Library",
+    subtitle: "Knowledge Center",
+    category: "Facilities",
+    role: "Library",
+    description: "Our library stocks books and resources for all grade levels.",
+  },
+  {
+    src: img4,
+    title: "Computer Lab",
+    subtitle: "Technology Center",
+    category: "Facilities",
+    role: "Technology",
+    description: "Modern computer lab for digital literacy education.",
+  },
+  {
+    src: img5,
+    title: "Playground",
+    subtitle: "Recreation Area",
+    category: "Facilities",
+    role: "Recreation",
+    description: "Safe playground equipment for children's physical development.",
+  },
+  {
+    src: imgC,
+    title: "Cafeteria",
+    subtitle: "Dining Hall",
+    category: "Facilities",
+    role: "Food Service",
+    description: "Clean and healthy meal preparation area for students.",
+  },
+  {
+    src: imgD,
+    title: "Science Laboratory",
+    subtitle: "Research Center",
+    category: "Facilities",
+    role: "Science",
+    description: "Equipped laboratory for hands-on science experiments.",
+  },
+  {
+    src: imgE,
+    title: "Art Studio",
+    subtitle: "Creative Space",
+    category: "Facilities",
+    role: "Arts",
+    description: "Dedicated space for artistic expression and creativity.",
+  },
+  {
+    src: imgF,
+    title: "Music Room",
+    subtitle: "Performance Hall",
+    category: "Facilities",
+    role: "Music",
+    description: "Professional music room with instruments and sound system.",
+  },
+  {
+    src: imgM,
+    title: "Administrative Office",
+    subtitle: "Main Office",
+    category: "Facilities",
+    role: "Administration",
+    description: "Central administrative hub for school operations.",
+  },
+  {
+    src: imgO,
+    title: "Outdoor Learning Area",
+    subtitle: "Nature Classroom",
+    category: "Facilities",
+    role: "Outdoor",
+    description: "Natural environment for outdoor learning activities.",
+  },
+  {
+    src: imgOO,
+    title: "Assembly Hall",
+    subtitle: "Gathering Space",
+    category: "Facilities",
+    role: "Events",
+    description: "Large hall for assemblies, performances, and gatherings.",
+  },
+  {
+    src: imgR,
+    title: "Reading Corner",
+    subtitle: "Quiet Study Area",
+    category: "Facilities",
+    role: "Study",
+    description: "Comfortable reading spaces that encourage literacy.",
   },
 ];
 
-
-  const categories = ["All", "Classes", "Teachers", "Events"];
+  const categories = ["All", "Classes", "Teachers", "Events", "Facilities"];
 
   useEffect(() => {
     if (activeFilter === "All") {
@@ -449,78 +619,6 @@ const portfolioItems = [
                       {selectedItem.description}
                     </p>
                   </div>
-
-                  {/* Dynamic Content Based on Category */}
-                  {selectedItem.category === "Teachers" && (
-                    <>
-                      <div>
-                        <h4 className="font-bold text-slate-800 mb-3 flex items-center">
-                          <i className="bi bi-mortarboard text-blue-600 mr-2"></i>
-                          Qualifications
-                        </h4>
-                        <p className="text-slate-600">{selectedItem.qualifications}</p>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-slate-800 mb-3 flex items-center">
-                          <i className="bi bi-clock-history text-blue-600 mr-2"></i>
-                          Experience
-                        </h4>
-                        <p className="text-slate-600">{selectedItem.experience}</p>
-                      </div>
-                    </>
-                  )}
-
-                  {selectedItem.category === "Classes" && (
-                    <>
-                      <div>
-                        <h4 className="font-bold text-slate-800 mb-3 flex items-center">
-                          <i className="bi bi-book text-blue-600 mr-2"></i>
-                          Curriculum
-                        </h4>
-                        <p className="text-slate-600">{selectedItem.curriculum}</p>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-slate-800 mb-3 flex items-center">
-                          <i className="bi bi-people text-blue-600 mr-2"></i>
-                          Class Size
-                        </h4>
-                        <p className="text-slate-600">{selectedItem.classSize}</p>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-slate-800 mb-3 flex items-center">
-                          <i className="bi bi-building text-blue-600 mr-2"></i>
-                          Facilities
-                        </h4>
-                        <p className="text-slate-600">{selectedItem.facilities}</p>
-                      </div>
-                    </>
-                  )}
-
-                  {selectedItem.category === "Events" && (
-                    <>
-                      <div>
-                        <h4 className="font-bold text-slate-800 mb-3 flex items-center">
-                          <i className="bi bi-star text-blue-600 mr-2"></i>
-                          Highlights
-                        </h4>
-                        <p className="text-slate-600">{selectedItem.highlights}</p>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-slate-800 mb-3 flex items-center">
-                          <i className="bi bi-people-fill text-blue-600 mr-2"></i>
-                          Attendance
-                        </h4>
-                        <p className="text-slate-600">{selectedItem.attendance}</p>
-                      </div>
-                      <div>
-                        <h4 className="font-bold text-slate-800 mb-3 flex items-center">
-                          <i className="bi bi-heart text-blue-600 mr-2"></i>
-                          Impact
-                        </h4>
-                        <p className="text-slate-600">{selectedItem.impact}</p>
-                      </div>
-                    </>
-                  )}
                 </div>
 
                 {/* Action Button */}
