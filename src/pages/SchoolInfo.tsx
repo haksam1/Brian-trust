@@ -6,12 +6,12 @@ export const SchoolInfo = () => {
   const [currentGalleryIndex, setCurrentGalleryIndex] = useState(0);
 
   const galleryImages = [
-    { src: "/src/assets/img/c1.jpg", title: "Kindergarten Classroom", description: "Modern learning environment for our youngest students" },
-    { src: "/src/assets/img/p1.jpg", title: "Primary Classroom", description: "Well-equipped classrooms for primary education" },
-    { src: "/src/assets/img/p7.jpg", title: "Upper Primary", description: "Advanced learning facilities for senior primary students" },
-    { src: "/src/assets/img/g1.jpg", title: "School Compound", description: "Safe and spacious school environment" },
-    { src: "/src/assets/img/t1.jpg", title: "Teaching Staff", description: "Dedicated and qualified educators" },
-    { src: "/src/assets/img/2L4A7403.jpg", title: "Cultural Events", description: "Celebrating diversity and culture" }
+    { src: "/assets/img/c1.jpg", title: "Kindergarten Classroom", description: "Modern learning environment for our youngest students" },
+    { src: "/assets/img/p1.jpg", title: "Primary Classroom", description: "Well-equipped classrooms for primary education" },
+    { src: "/assets/img/p7.jpg", title: "Upper Primary", description: "Advanced learning facilities for senior primary students" },
+    { src: "/assets/img/g1.jpg", title: "School Compound", description: "Safe and spacious school environment" },
+    { src: "/assets/img/t1.jpg", title: "Teaching Staff", description: "Dedicated and qualified educators" },
+    { src: "/assets/img/2L4A7403.jpg", title: "Cultural Events", description: "Celebrating diversity and culture" }
   ];
 
   const programs = [
@@ -158,7 +158,7 @@ export const SchoolInfo = () => {
               </div>
               <div className="text-center">
                 <img 
-                  src="/src/assets/img/badge_prev_ui.png" 
+                  src="/assets/img/badge_prev_ui.png" 
                   alt="School Logo" 
                   className="w-48 h-48 mx-auto rounded-full shadow-2xl border-8 border-blue-100 mb-6"
                 />

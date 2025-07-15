@@ -7,7 +7,7 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/src/assets/img/badge_prev_ui.png" 
+                src="/assets/img/badge_prev_ui.png" 
                 alt="School Logo" 
                 className="w-12 h-12 rounded-full"
               />
@@ -26,6 +26,9 @@ export const Footer = () => {
               </a>
               <a href="#" className="text-blue-300 hover:text-white transition-colors">
                 <i className="bi bi-instagram text-xl"></i>
+              </a>
+              <a href="#" className="text-blue-300 hover:text-white transition-colors">
+                <i className="bi bi-tiktok text-xl"></i>
               </a>
             </div>
           </div>

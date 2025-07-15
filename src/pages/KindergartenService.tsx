@@ -88,7 +88,7 @@ export const KindergartenService = () => {
             {/* Image */}
             <div className="order-1 lg:order-2">
               <img 
-                src="/src/assets/img/c1.jpg" 
+                src="/assets/img/c1.jpg" 
                 alt="Kindergarten" 
                 className="w-full rounded-2xl shadow-2xl mb-8"
               />

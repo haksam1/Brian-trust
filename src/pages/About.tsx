@@ -7,41 +7,41 @@ export const About = () => {
   const testimonials = [
     {
       quote: "As a teacher at Brain Trust School Nansana I feel incredibly fortunate to be part of such a nurturing and vibrant community. Our school is dedicated to fostering a love for learning and helping students grow both academically and personally.",
-      image: "/src/assets/img/t18.jpg",
+      image: "/assets/img/t18.jpg",
       name: "GABALE GEOFREY",
       position: "CO-TEACHER & P.7"
     },
     {
       quote: "I have been a parent for over 7 years. The teachers are lovely. The environment is calm and hospitable. Parents you should bring your children to Brain Trust School Nansana.",
-      image: "/src/assets/img/4.jpg", 
+      image: "/assets/img/4.jpg", 
       name: "Ms.Prudence Korougyendo",
       position: "Mother to Amanya Alvin K.2"
     },
     {
       quote: "We love Brain Trust School because the teachers are very nice and hospitable. We have learnt how to be very confident and honest.",
-      image: "/src/assets/img/5.jpg",
+      image: "/assets/img/5.jpg",
       name: "J.Family",
       position: ""
     },
     {
       quote: "Brain Trust School is really the best school. Even outside classes we learn various skills like making paper bags, swimming and they teach us how to respect each other.",
-      image: "/src/assets/img/3.jpg",
+      image: "/assets/img/3.jpg",
       name: "Mawenje Isaac", 
       position: ""
     },
     {
       quote: "The commitment to innovation in education, combined with a strong sense of community, makes Brain Trust School Nansana a truly special place. I am proud to work alongside a dedicated team of educators who continuously strive to provide the best possible experience for our students. It's an honor to witness their growth and success every day.",
-      image: "/src/assets/img/t5.jpg",
+      image: "/assets/img/t5.jpg",
       name: "NAKANDHA MARION",
       position: "CLASS TR.P.2 / HEAD OF LOWER"
     }
   ];
 
   const galleryImages = [
-    "/src/assets/img/c1.jpg",
-    "/src/assets/img/p1.jpg", 
-    "/src/assets/img/p7.jpg",
-    "/src/assets/img/g1.jpg"
+    "/assets/img/c1.jpg",
+    "/assets/img/p1.jpg", 
+    "/assets/img/p7.jpg",
+    "/assets/img/g1.jpg"
   ];
 
   // Auto-scroll images (one at a time)

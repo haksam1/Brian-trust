@@ -13,7 +13,7 @@ export const Home = () => {
             playsInline
             className="w-full h-full object-cover opacity-50"
           >
-            <source src="/src/assets/img/vi.mp4" type="video/mp4" />
+            <source src="/assets/img/vi.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -25,7 +25,7 @@ export const Home = () => {
         <div className="relative z-20 text-center px-6 py-16 max-w-4xl">
           <div className="mb-8 animate-fade-in">
             <img 
-              src="/src/assets/img/badge_prev_ui.png" 
+              src="/assets/img/badge_prev_ui.png" 
               alt="School Logo" 
               className="w-28 h-28 md:w-36 md:h-36 mx-auto rounded-full shadow-xl border-4 border-white/30"
             />

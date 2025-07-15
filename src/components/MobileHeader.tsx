@@ -32,7 +32,7 @@ export const MobileHeader = () => {
       }`}>
         <div className="p-6 text-center border-b border-slate-700">
           <img 
-            src="/src/assets/img/badge_prev_ui.png" 
+            src="/assets/img/badge_prev_ui.png" 
             alt="School Logo" 
             className="w-20 h-20 mx-auto rounded-full mb-4 shadow-lg"
           />
@@ -46,6 +46,9 @@ export const MobileHeader = () => {
             </a>
             <a href="#" className="text-slate-300 hover:text-white transition-colors">
               <i className="bi bi-instagram text-lg"></i>
+            </a>
+            <a href="#" className="text-slate-300 hover:text-white transition-colors">
+              <i className="bi bi-tiktok text-lg"></i>
             </a>
           </div>
         </div>

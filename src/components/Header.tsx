@@ -10,7 +10,7 @@ export const Header = () => {
     <header className="hidden lg:flex fixed top-0 left-0 w-64 h-full bg-slate-900 text-white z-50 flex-col shadow-xl">
       <div className="p-4 text-center border-b border-slate-700">
         <img 
-          src="/src/assets/img/badge_prev_ui.png" 
+          src="/assets/img/badge_prev_ui.png" 
           alt="School Logo" 
           className="w-20 h-20 mx-auto rounded-full mb-4 shadow-lg border-4 border-blue-500"
         />
@@ -24,6 +24,9 @@ export const Header = () => {
           </a>
           <a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">
             <i className="bi bi-instagram text-lg"></i>
+          </a>
+          <a href="#" className="text-slate-300 hover:text-blue-400 transition-colors">
+            <i className="bi bi-tiktok text-lg"></i>
           </a>
         </div>
       </div>

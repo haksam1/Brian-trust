@@ -87,7 +87,7 @@ export const PrimaryService = () => {
             {/* Image */}
             <div>
               <img 
-                src="/src/assets/img/p3.jpg" 
+                src="/assets/img/p3.jpg" 
                 alt="Primary" 
                 className="w-full rounded-2xl shadow-2xl mb-8"
               />
